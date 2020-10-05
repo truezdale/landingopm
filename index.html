@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Quicksand&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light" style="background-color: #ffc400;">
+            <a href="#" class="navbar-brand">
+                <img src="frontend/images/opm.png" alt="opm">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navb">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                            List Hero
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Bapak Kau</a>
+                            <a href="#" class="dropdown-item">Mandi</a>
+                            <a href="#" class="dropdown-item">Di SAWAH</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <!-- mobile button -->
+                <form class="form-inline d-sm-block d-md-none">
+                    <button class="btn btn-login my-2 my-sm-0">
+                        Masuk
+                    </button>
+                </form>
+
+                <!-- desktop button -->
+                <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                        Masuk
+                    </button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <!-- header -->
+    <header class="text-center">
+        <h1>Enjoy the Gacha
+            <br />
+            Give Your Win!</h1>
+        <p>
+            You will see beautiful
+            <br />
+            moment you never see before.
+        </p>
+        <a href="#" class="btn btn-get-started px-4 mt-4">
+            Ayo Cari!
+        </a>
+    </header>
+
+    <!-- Statistik header -->
+    <main>
+        <div class="container">
+            <section class="section-stats row justify-content-center" id="stats">
+                <div class="col-6 col-md-2 stats-detail">
+                    <h5>50 Orang</h5>
+                    <p>Hero S Class</p>
+                </div>
+                <div class="col-6 col-md-2 stats-detail">
+                    <h5>100 Orang</h5>
+                    <p>Hero A Class</p>
+                </div>
+                <div class="col-6 col-md-2 stats-detail">
+                    <h5>150 Orang</h5>
+                    <p>Hero B Class</p>
+                </div>
+                <div class="col-6 col-md-2 stats-detail">
+                    <h5>20 Orang</h5>
+                    <p>Hero C Class</p>
+                </div>
+            </section>
+        </div>
+
+        <section class="section-popular" id="popular">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center section-popular-heading">
+                        <h2>HERO TERKUAT</h2>
+                        <p>Mereka Pernah Mengalahkan Monster-Monster
+                            <br />
+                            Terkuat yang ada dibumi</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-popular-content" id="Popularcontent">
+            <div class="section-popular-travel row justify-content-center">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card-travel text-center d-flex flex-column" 
+                    style="background-image:
+                     url('https://vignette.wikia.nocookie.net/onepunchman/images/8/81/Atomic_Samurai_Avi.png/revision/latest?cb=20191129185742');">
+                        <div class="travel-country">S Hero Class No.4</div>
+                        <div class="travel-location">ATOMIC SAMURAI</div>
+                        <div class="travel-button mt-auto">
+                            <a href="#" class="btn btn-travel-details px-4">
+                                Lihat Detail
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card-travel text-center d-flex flex-column" 
+                    style="background-image:
+                     url('https://vignette.wikia.nocookie.net/onepunchman/images/d/d2/Tatsumaki_Manga.png/revision/latest?cb=20200307051500');">
+                        <div class="travel-country">S Hero Class No.2</div>
+                        <div class="travel-location">TATSUMAKI</div>
+                        <div class="travel-button mt-auto">
+                            <a href="#" class="btn btn-travel-details px-4">
+                                Lihat Detail
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card-travel text-center d-flex flex-column" 
+                    style="background-image:
+                     url('https://www.anime-planet.com/images/characters/child-emperor-91117.jpg');">
+                        <div class="travel-country">S Hero Class No.5</div>
+                        <div class="travel-location">CHILD EMPEROR</div>
+                        <div class="travel-button mt-auto">
+                            <a href="#" class="btn btn-travel-details px-4">
+                                Lihat Detail
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- scripts -->
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+</body>
+
+</html>
