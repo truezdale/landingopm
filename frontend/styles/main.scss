@@ -1,0 +1,128 @@
+body {
+
+    font-family: 'Anton', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+
+// navbar
+.navbar-brand {
+    img {
+        max-height: 40px;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            font-weight: bold;
+        }
+    }
+}
+
+.btn-login {
+    background-color: #ffda73;
+    color: #ffff;
+
+    &:hover {
+        background-color: #99854e;
+        color: #ffff;
+    }
+}
+
+// header
+header {
+    color: white;
+    margin-top: -5%;
+    padding: 180px 0 165px;
+    background-image: url(https://dailyanimeart.files.wordpress.com/2016/05/saitama-genos-one-punch-man-wallpaper-by-uzumakiash.png?w=730);
+    background-size: cover;
+
+    h1 {
+        font-size: 50px;
+        font-family: 'Anton', sans-serif;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .btn-get-started {
+        background-color: rgb(221, 157, 38);
+        font-weight: bold;
+
+        &:hover {
+            background-color: orange;
+        }
+    }
+}
+
+//Statistik
+.section-stats {
+    width: 70%;
+    position: absolute;
+    margin-top: -55px;
+    background-color: orangered;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    .stats-detail{
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+}
+
+//Section Popular
+.section-popular {
+    min-height: 540px;
+    background-color:#ffda73;
+    margin-bottom: -220px;
+}
+
+.section-popular-heading {
+    margin-top: 150px;
+
+    h2,p{
+        color: black;
+    }
+
+    h2{
+        font-family: 'Playfair Display', serif ;
+        font-weight: bold;
+        font-size: 40px;
+    }
+}
+
+.section-popular-content {
+    .section-popular-travel{
+        .card-travel{
+            min-height: 380px;
+            background-color: rgb(255, 195, 31);
+            color: white;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+
+        .travel-country{
+            font-size: 25px;
+            color: white;
+        }
+        .travel-location{
+            font-size: 18px;
+            color: white;
+        }
+        .travel-button{
+            .btn-travel-details{
+                background-color: rgb(255, 154, 82);
+                color: black;
+
+                &:hover{
+                    background-color: burlywood;
+                }
+            }
+            
+        }
+    }
+}

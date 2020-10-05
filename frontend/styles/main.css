@@ -1,0 +1,113 @@
+body {
+  font-family: 'Anton', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: bold;
+}
+
+.btn-login {
+  background-color: #ffda73;
+  color: #ffff;
+}
+
+.btn-login:hover {
+  background-color: #99854e;
+  color: #ffff;
+}
+
+header {
+  color: white;
+  margin-top: -5%;
+  padding: 180px 0 165px;
+  background-image: url(https://dailyanimeart.files.wordpress.com/2016/05/saitama-genos-one-punch-man-wallpaper-by-uzumakiash.png?w=730);
+  background-size: cover;
+}
+
+header h1 {
+  font-size: 50px;
+  font-family: 'Anton', sans-serif;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: #dd9d26;
+  font-weight: bold;
+}
+
+header .btn-get-started:hover {
+  background-color: orange;
+}
+
+.section-stats {
+  width: 70%;
+  position: absolute;
+  margin-top: -55px;
+  background-color: orangered;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+
+.section-stats .stats-detail {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #ffda73;
+  margin-bottom: -220px;
+}
+
+.section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular-heading h2, .section-popular-heading p {
+  color: black;
+}
+
+.section-popular-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #ffc31f;
+  color: white;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 25px;
+  color: white;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 18px;
+  color: white;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  background-color: #ff9a52;
+  color: black;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: burlywood;
+}
+/*# sourceMappingURL=main.css.map */
