@@ -110,4 +110,56 @@ header .btn-get-started:hover {
 .section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
   background-color: burlywood;
 }
+
+.section-networks {
+  background-color: #fff1e0;
+  margin-top: -180px;
+  padding-top: 230px;
+  padding-bottom: 50px;
+}
+
+.section-networks h2 {
+  font-family: 'PlayFair Display', serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.section-networks img {
+  max-width: 100%;
+}
+
+.section-testimoni-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ffda73));
+  background: linear-gradient(#fff 0%, #ffda73 100%);
+  padding-top: 50px;
+  min-height: 506px;
+}
+
+.section-testimoni-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section-testimoni-content {
+  margin-top: -220px;
+  padding-bottom: 50px;
+}
+
+.section-testimoni-content .card-testimoni {
+  padding: 40px 20px 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: #ffcf4b;
+}
+
+.section-testimoni-content .card-testimoni .testimoni-content {
+  min-height: 300px;
+}
+
+.section-testimoni-content .card-testimoni hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
 /*# sourceMappingURL=main.css.map */
