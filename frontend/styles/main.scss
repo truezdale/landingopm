@@ -124,5 +124,55 @@ header {
             }
             
         }
+       .section-networks {
+    background-color: #fff1e0;
+    margin-top: -180px;
+    padding-top: 230px;
+    padding-bottom: 50px;
+
+    h2 {
+        font-family: 'PlayFair Display', serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+
+}
+
+.section-testimoni-heading {
+    background: linear-gradient(#fff 0%, #ffda73 100%);
+    padding-top: 50px;
+    min-height: 506px;
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+.section-testimoni-content {
+    margin-top: -220px;
+    padding-bottom: 50px;
+
+    .card-testimoni {
+        padding: 40px 20px 10px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        background-color: rgb(255, 207, 75);
+
+        .testimoni-content {
+            min-height: 300px;
+        }
+
+        hr {
+            margin-left: -20px;
+            margin-right: -20px;
+        }
     }
 }
